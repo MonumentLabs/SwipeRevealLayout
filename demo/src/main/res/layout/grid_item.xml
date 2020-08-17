@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.chauthai.swipereveallayout.SwipeRevealLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.chauthai.swipereveallayout.SwipeRevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/swipe_layout"
     android:layout_width="150dp"
     android:layout_height="150dp"
     android:padding="10dp"
     app:dragEdge="right"
-    app:mode="same_level">
+    app:revealMode="same_level">
 
     <FrameLayout
         android:id="@+id/delete_layout"
